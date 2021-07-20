@@ -21,7 +21,6 @@ jobs:
           checkout: true
           repo: arm-dlc
           # remote-docker-layer-caching: true
-
 workflows:
   version: 2.1
   build-and-deploy:
